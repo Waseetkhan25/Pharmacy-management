@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Pharmacy Management System",
   "main": "server/index.js",
+  "type": "module",
   "scripts": {
     "start": "node server/index.js",
     "dev": "nodemon server/index.js",
@@ -20,5 +21,4 @@
     "nodemon": "^3.0.2",
     "vitest": "^1.0.0"
   }
-  
 }
